@@ -1,5 +1,8 @@
 // ReactElement (Onject) => HTML(Browser Understands)
 
+import React from "react";
+import ReactDOM from "react-dom/client"; // "react-dom" throws error
+
 const parent = React.createElement("div", {id: "parent"}, [
     React.createElement("div", {id: "child1"}, [
         React.createElement("h1", {}, "I'm an h1 tag in child1"),
